@@ -1,9 +1,9 @@
 # QLearning
 ## My implementation of Q-Learning, SARSA and SARSA-λ on a grid-world test-bed
 
-1) Requirements : pygame,gym,numpy,argparse,matplotlib
+Requirements : pygame,gym,numpy,argparse,matplotlib
 	
-2) Usage:
+Usage:
 	
 	python2 grid.py [-h] [--alpha ALPHA] [--epsilon EPSILON] [--gamma GAMMA]
                [--episodes EPISODES] [--verbose] [--grid GRID] [--render]
@@ -20,9 +20,9 @@
 	LAM : lambda value for SARSAlam [Default:0.5]
 
 	
-3) Example: To run a game with default settings on grid-A, to render the enviroment and show learnt policy at the end
+Example: To run a game with default settings on grid-A, to render the enviroment and show learnt policy at the end
 	
 	python grid.py --episodes 1000 --render --show-policy
 	
 
-4) Reference : [Reinforcement Learning: An Introduction Book by Andrew Barto and Richard S. Sutton](http://incompleteideas.net/book/bookdraft2018mar21.pdf)	
+Reference : [Reinforcement Learning: An Introduction Book by Andrew Barto and Richard S. Sutton](http://incompleteideas.net/book/bookdraft2018mar21.pdf)	
