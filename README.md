@@ -1,5 +1,5 @@
 # QLearning
-## My implementation of Q-Learning, SARSA and SARSA-λ on a grid-world test-bed
+## Implementation of Q-Learning, SARSA and SARSA-λ on a grid-world test-bed
 
 Requirements : pygame,gym,numpy,argparse,matplotlib
 	
