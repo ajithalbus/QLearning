@@ -20,7 +20,9 @@ My implementation of Q-Learning, SARSA and SARSA-λ on a grid-world test-bed
 	LAM : lambda value for SARSAlam [Default:0.5]
 
 	
-2)example ,To run a game with default settings on grid-A, to render the enviroment and show learnt policy at the end
+3)example ,To run a game with default settings on grid-A, to render the enviroment and show learnt policy at the end
 	
 	python grid.py --episodes 1000 --render --show-policy
-		
+	
+
+4)Reference : [Reinforcement Learning: An Introduction Book by Andrew Barto and Richard S. Sutton](http://incompleteideas.net/book/bookdraft2018mar21.pdf)	
